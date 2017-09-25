@@ -1,0 +1,8 @@
+#!/bin/bash
+
+$SRILM/ngram -lm ../local/lm/3gram-mincount/lm_unpruned.gz -vocab ../lang/words.txt -ppl lat.1.trans.part.rem | tee lat.1.ppl 
+
+
+#ngram -lm ../local/lm/3gram-mincount/lm_unpruned.gz  -ppl lat.1.trans 
+
+#$SRILM/ngram -order 3 -lm 3-gram.arpa -vocab ../librispeech-vocab.txt -vocab-aliases aliases -ppl #icnale.text.filt | tee icnale.ppl 
