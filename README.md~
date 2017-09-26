@@ -10,3 +10,6 @@ view kaldi code and format
 /exp_text/
  - nbest-to-linear
  - srilm/ngram -ppl
+
+/exp_ivector/
+ - ivector-extract-online2
