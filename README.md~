@@ -13,3 +13,7 @@ view kaldi code and format
 
 /exp_ivector/
  - ivector-extract-online2
+
+/exp_lda/
+ - copy-matrix
+ - transform-feats

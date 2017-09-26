@@ -17,3 +17,6 @@ view kaldi code and format
 /exp_lda/
  - copy-matrix
  - transform-feats
+
+/exp_nnet3_egs/
+ - nnet3-get-egs
