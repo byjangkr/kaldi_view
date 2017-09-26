@@ -6,3 +6,10 @@ view kaldi code and format
  - paste-feats
  - append-vector-to-feats
  - compute-cmvn-stats
+
+/exp_text/
+ - nbest-to-linear
+ - srilm/ngram -ppl
+
+/exp_ivector/
+ - ivector-extract-online2
